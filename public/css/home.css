@@ -1,0 +1,125 @@
+.home main nav .banner {
+    display: none;
+    width: 100%;
+  }
+  .home section {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .home section h3 {
+    font-size: 24px;
+    color: #666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .home section .art {
+    background-color: white;
+    margin: 10px 0;
+  }
+  .home section .art img {
+    width: 100%;
+  }
+  .home section .art .caja {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 5px;
+    position: relative;
+  }
+  .home section .art i {
+    color: #39b54a;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    transition: all .3s;
+  }
+  .home section .art .precio {
+    font-size: 18px;
+    width: 30%;
+  }
+  .home section .art .off {
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+    padding-left: 10px;
+  }
+  .home section .art .articulo {
+    display: none;
+  }
+
+  .caja-box:hover i {
+    display: none;
+    transform: rotate(360deg);
+  }
+  
+  @media (min-width: 361px) {
+    .home main nav .banner {
+      display: block;
+      max-height: 250px;
+    }
+  
+    section .flex-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+    }
+    section .flex-box .art {
+      width: 49%;
+    }
+    section .flex-box .art .caja {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    section .flex-box .art .caja .precio {
+      font-size: 15px;
+    }
+    section .flex-box .art .caja .off {
+      font-size: 14px;
+      padding-left: 20px;
+    }
+    section .flex-box .art .caja .articulo {
+      display: inline;
+      color: #666;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    .caja-box:hover i {
+      transform: rotate(360deg);
+    }
+  }
+  @media (min-width: 769px) {
+    .home main section .flex-box .art {
+      width: 24%;
+    }
+    .home main section .flex-box .art:hover{
+      box-shadow: 0px 0px 10px #646464;
+    }
+    .home section .art .caja:hover i{
+      transform: rotate(360deg);
+    }
+    .home main section .flex-box .art .caja .precio {
+      font-size: 15px;
+    }
+    .home main section .flex-box .art .caja .off {
+      font-size: 14px;
+      padding-left: 20px;
+    }
+    .home main section .flex-box .art .caja .articulo {
+      font-size: 16px;
+      opacity: 0;
+    }
+    .home main section .flex-box .art:hover .caja .articulo{
+      opacity: 1;
+    }
+    .caja-box:hover i {
+      transform: rotate(360deg);
+    }
+  }
+  

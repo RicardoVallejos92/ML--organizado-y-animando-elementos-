@@ -1,0 +1,44 @@
+.login main, .register main {
+    width: 70%;
+    max-width: 700px;
+    margin: 50px auto;
+  }
+  .login main .box-form, .register main .box-form {
+    text-align: center;
+  }
+  .login main .box-form input, .register main .box-form input {
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  .login main .box-remember, .register main .box-remember {
+    text-align: left;
+  }
+  .login main span, .register main span {
+    color: #ff0000;
+  }
+  .login main .box-button, .register main .box-button {
+    text-align: center;
+  }
+  .login main .box-button button, .register main .box-button button {
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    /* background-color: #1259c3; */
+    background-color: #fff;
+    color: #000;
+  }
+  .login main .box-button button:hover, .register main .box-button button:hover {
+    background-color: #0080ff;
+  }
+  
+  @media (min-width: 768px) {
+    .login main form button:hover {
+      background-color: #0022AA
+    }
+    
+  }

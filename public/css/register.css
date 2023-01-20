@@ -1,0 +1,16 @@
+.register main .box-form {
+    text-align: left;
+  }
+  .register main .box-form .perfil {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .register main .box-form .perfil input {
+    width: 30px;
+    align-self: top;
+  }
+  .register main .box-button {
+    margin-top: 20px;
+  }

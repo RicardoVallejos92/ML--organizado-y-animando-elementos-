@@ -1,0 +1,39 @@
+footer {
+    text-align: center;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  footer .titulo {
+    font-weight: 600;
+  }
+  footer p {
+    font-size: 12px;
+    color: #666;
+  }
+  footer .derechos {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  
+  @media (min-width: 769px) {
+    footer {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+  
+    .login footer {
+      position: fixed;
+      bottom: 0;
+    }
+    footer section i:hover{
+      color: #000;
+    }
+  }
+  
